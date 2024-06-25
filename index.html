@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barr Teknology®</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f0f0f; /* Sfondo scuro per effetto futuristico */
+            color: #e0e0e0;
+        }
+        header {
+            background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); /* Gradiente futuristico */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .content {
+            background-color: #1e1e1e; /* Sfondo dei contenuti scuro */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+            color: #e0e0e0;
+        }
+        footer {
+            background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); /* Gradiente futuristico */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+            margin-top: 20px; /* Aggiunto margine per separare dal contenuto principale */
+        }
+        .team-member {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #444;
+            border-radius: 5px;
+            box-shadow: inset 0 0 5px rgba(0, 255, 255, 0.5);
+        }
+        form button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #00bcd4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 188, 212, 0.7);
+        }
+        form button:hover {
+            background-color: #008ba3;
+            color: #fff; /* Assicuriamoci che il testo rimanga visibile */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Barr Teknology®</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Chi Siamo</a></li>
+            <li><a href="#services">Servizi</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contatti</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="home" class="content">
+        <h2>Benvenuti su Barr Teknology®</h2>
+        <p>Ci occupiamo di miglioramento e creazione di nuove tecnologie, offrendo soluzioni innovative e all'avanguardia per soddisfare ogni esigenza. Siamo dediti alla ricerca e allo sviluppo di tecnologie che cambieranno il futuro, rendendo la vita più semplice e connessa.</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2>Chi Siamo</h2>
+        <p>Barr Teknology® è un'azienda leader nella fornitura di soluzioni tecnologiche, impegnata a promuovere l'innovazione e l'eccellenza. Il nostro team di esperti lavora instancabilmente per offrirvi il meglio dei servizi tecnologici.</p>
+    </section>
+
+    <section id="services" class="content">
+        <h2>I Nostri Servizi</h2>
+        <ul>
+            <li>Sviluppo Software Personalizzato</li>
+            <li>Consulenza IT</li>
+            <li>Soluzioni Cloud</li>
+            <li>Analisi dei Dati</li>
+            <li>Cybersecurity</li>
+        </ul>
+    </section>
+
+    <section id="team" class="content">
+        <h2>Il Nostro Team</h2>
+        <div class="team-member">
+            <img src="team-member1.jpg" alt="Matteo Barranu">
+            <h3>Matteo Barranu</h3>
+            <p>CEO & Fondatore</p>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contattaci</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Il Tuo Nome" required>
+            <input type="email" name="email" placeholder="La Tua Email" required>
+            <textarea name="message" rows="5" placeholder="Il Tuo Messaggio" required></textarea>
+            <button type="submit">Invia Messaggio</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Barr Teknology®. Tutti i diritti riservati.</p>
+    <p>Email: <a href="mailto:matteobarranu@hotmail.com" style="color: #00bcd4;">matteobarranu@hotmail.com</a></p>
+</footer>
+
+</body>
+</html>
